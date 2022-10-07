@@ -11,6 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html {
   color: #222;
   font-size: 1em;
@@ -262,10 +264,7 @@ textarea {
 }
 
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 
 section.banner {
   background-color: black;
@@ -276,6 +275,15 @@ h2.banner-heading{
   margin: 0;
   padding: 20px;
   text-align: center;
+  font-size: 2rem;
+}
+
+h2.brand-headline {
+  font-size: 2.5rem;
+}
+
+h2.real-company {
+  font-size: 4rem;
 }
 
 .strike {
@@ -307,6 +315,22 @@ section.real-company {
   justify-content: space-evenly;
 }
 
+.button-vertical {
+  width: 40%;
+}
+
+button {
+  width: 75%;
+}
+
+.real-company-write {
+width: 60%;
+}
+
+.write-company {
+  font-size: 3.5rem;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -325,4 +349,39 @@ button {
   height: 65px;
   margin: 5px;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  section.hero-main img {
+    max-width: 100%;
+  }
+
+  h2.banner-heading {
+    font-size: 1.5rem;
+  }
+
+  h2.brand-headline {
+    font-size: 2rem;
+  }
+
+  h2.real-company {
+    font-size: 3rem;
+  }
+
+  .button-vertical {
+    width: 100%;
+  }
+
+ .real-company-write {
+  width: 100%;
+ }
+
+ button {
+  width: 100%;
+ }
+
+ .write-company {
+  font-size: 2.3rem;
+ }
+
 }
