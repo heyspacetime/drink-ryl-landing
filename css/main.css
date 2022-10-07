@@ -12,6 +12,36 @@
    ========================================================================== */
 
 
+   @font-face {
+    font-family: 'circular_stdbold';
+    src: url('circularstd-bold_1-webfont.woff2') format('woff2'),
+         url('circularstd-bold_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'circular_stdbook';
+    src: url('circularstd-book_1-webfont.woff2') format('woff2'),
+         url('circularstd-book_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'creativevintageregular';
+    src: url('creativevintage-regular_2-webfont.woff2') format('woff2'),
+         url('creativevintage-regular_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html {
   color: #222;
@@ -264,6 +294,9 @@ textarea {
 }
 
 
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'circular_stdbook';
+}
 
 
 section.banner {
